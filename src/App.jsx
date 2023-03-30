@@ -79,9 +79,14 @@ Card.map ( (card) =>  <Cardarea click = {addToList} data = {card}></Cardarea>)
         
         </div>
 
-
+        <div className='col-span-1'>
 
         <Detailsarea detail = {Details}></Detailsarea>
+
+        </div>
+
+
+
         <ToastContainer></ToastContainer>
 
 
